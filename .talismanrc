@@ -1,0 +1,13 @@
+fileignoreconfig:
+- filename: config/database.yml
+  checksum: 0b9722eaf23d94749c0845da3f94c1d77c575d828c46738dd0c575e00446f2af
+  ignore_detectors: [filename, filecontent]
+- filename: config/environment.rb
+  checksum: ef01fee233fbd6ab60d222893683c4f6e34d66ad11ac6468e725b8304b80c628
+  ignore_detectors: [filename, filecontent]
+- filename: db/schema.rb
+  checksum: 1a3cecb38b2681849140f9b7b894342ef431fc7bdf2e2661168f841e9eae113e
+  ignore_detectors: [filename, filecontent]
+- filename: config/credentials.yml.enc
+  checksum: 55617385721421e0623003266420c5c17a082ddea6eca772bb3f87626ea76734
+  ignore_detectors: [filename, filecontent]

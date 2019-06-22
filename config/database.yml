@@ -1,0 +1,26 @@
+default: &default
+  adapter: postgresql
+  encoding: utf8
+  pool: 5
+  timeout: 5000
+
+development:
+  <<: *default
+  host: localhost
+  database: estore_dev
+  username: db_dev
+  password: db_dev
+
+test:
+  <<: *default
+  host: localhost
+  database: estore_test
+  username: db_dev
+  password: db_dev
+
+production:
+  <<: *default
+  host: localhost
+  database: estore_prod
+  username: estore
+  password: estore
